@@ -1,0 +1,71 @@
+# html2textrc(5) file for GitHub Markdown
+
+## Headings
+
+H1.vspace.before 1 
+H2.vspace.before 1
+H3.vspace.before 1
+H4.vspace.before 1
+H5.vspace.before 1
+H6.vspace.before 1
+H1.prefix \#\ 
+H2.prefix \#\#\ 
+H3.prefix \#\#\#\ 
+H4.prefix \#\#\#\#\ 
+H5.prefix \#\#\#\#\#\ 
+H6.prefix \#\#\#\#\#\#\ 
+H1.suffix
+H2.suffix
+H3.suffix
+H4.suffix
+H5.suffix
+H6.suffix
+H1.vspace.after 1
+H2.vspace.after 1
+H3.vspace.after 1
+H4.vspace.after 1
+H5.vspace.after 1
+H6.vspace.after 1
+H1.attributes NONE
+H2.attributes NONE
+H3.attributes NONE
+H4.attributes NONE
+H5.attributes NONE
+H6.attributes NONE
+
+## Lists
+OL.indents 4 3 2
+UL.indents 3 2 1
+UL.default_types DISC DISC DISC
+LI.disc_bullet -
+
+## Links
+A.attributes.internal_link NONE
+A.attributes.external_link NONE
+
+## Emphasis
+B.attributes NONE
+EM.attributes NONE
+STRONG.attributes NONE
+B.prefix *
+B.suffix *
+EM.prefix *
+EM.suffix *
+STRONG.prefix **
+STRONG.suffix **
+
+## Images
+IMG.vspace.after 1
+IMG.vspace.before 1
+IMG.alt.prefix [
+IMG.alt.suffix ]
+
+## Tables
+TABLE.vspace.after 1
+TABLE.vspace.before 1
+TABLE.attributes NONE
+THEAD.attributes NONE
+TR.attributes NONE
+TH.attributes NONE
+TD.attributes NONE
+COL.attributes NONE
